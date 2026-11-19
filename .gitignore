@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Private datasets and generated graph caches
+csvDataset/
+data/
+raw/
+processed/
+processed_*/
+**/processed_*/
+
+# Training artifacts
+logs/
+results/
+checkpoints/
+*.log
+*.pt
+*.pth
+*.pkl
+nohup.out
+
+# Generated figures and reports
+*.png
+*.pdf
+*.csv
+*.json
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
